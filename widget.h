@@ -18,20 +18,17 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
     bool sendflag, receiveflag;
-    // void readbooltype();
 
 private slots:
     void on_sendaxispB_clicked();
 
-    // void on_readparameterpB_clicked();
+    void on_readparameterpB_clicked();
 
     void on_connectpB_clicked();
 
-    // void on_parametersetpB_clicked();
 
     void replyData();
 
-    // void replyData2();
 
     void on_moderead_clicked();
 
